@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+    background: url('../images/fundologin4.jpg') center;
+    background-size: 100% 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px groove;
+}
+
+h1 {
+    color: #2012a0;
+    text-shadow: 4px 4px rgba(236, 8, 8, 0.555) 6px 6px #000;
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+input {
+    width: 100%;
+    max-width: 18rem;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border: 2px solid #07077d;
+    color: #0d0e00;
+    font-family: Arial, Helvetica, sans-serif;
+    outline-color: #07717d;
+    border-radius: center;
+    font-weight: 700;
+}
+
+button {
+    width: 100%;
+    max-width: 18rem;
+    padding: .5rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    background-color: #7d0707;
+    color: #da0a0a;
+    text-shadow: 1px 1px #000;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:disabled {
+    background: #2d23bd;
+    cursor: auto;
+    color: #1fa5ec;
+}
+
