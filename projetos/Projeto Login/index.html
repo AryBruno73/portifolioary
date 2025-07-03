@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ============ CSS ================ -->
+    <link rel="stylesheet" href="assets/css/login.css">
+
+
+    <!-- ============ JS ================ -->
+    <script src="assets/js/mostraSenha2.js" defer></script>
+    <script src="assets/js/login.js"> defer</script>
+
+    <!-- ============ REMIXICON ================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
+
+    <title>Projeto Login</title>
+</head>
+
+<body>
+
+    <main class="login">
+
+        <img src="assets/images/sistema-solar-espaco-12.jpg" alt="Imagem de background" class="login__img">
+
+        <form class="login__form">
+
+            <h1 class="login__title">Login</h1>
+
+            <div class="login__content">
+
+                <div class="login__box">
+
+                    <i class="ri-user-3-line login__icon"></i>
+
+                    <div class="login__box-input">
+
+                        <input type="email" id="login-email" class="login__input" required placeholder="">
+
+                        <label for="login-email" class="login__label">E-mail</label>
+
+                    </div>
+
+                </div>
+
+                <div class="login__box">
+
+                    <i class="ri-lock-2-line login__icon"></i>
+
+                    <div class="login__box-input">
+
+                        <input type="password" id="login-pass" class="login__input" required placeholder="">
+
+                        <label for="login-pass" class="login__label">Password</label>
+
+                        <i class="ri-eye-off-line login__eye" id="login-eye"></i>
+                    </div>
+
+                </div>
+
+                <div class="login__check">
+
+                    <div class="login__check-group">
+
+                        <input type="checkbox" id="login-check" class="login__check-label">
+                        
+                        <label for="login-check" class="login__check-label"></label> Remember me</label>
+
+                    </div>
+
+                    <a href="pages/recupera.html" class="login__forgot">Forgot Password</a>
+                </div>
+
+                <button type="submit" class="login__button">Login</button>
+
+                <p class="login__register">Don't have an account?
+                    <a href="pages/cadastro.html">Register</a>
+                </p>
+
+
+            </div>
+
+
+            </div>
+
+
+
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

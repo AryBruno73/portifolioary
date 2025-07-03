@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://cdn.panrotas.com.br/portal-panrotas-statics/media-files-cache/315695/2d1ffed78f422a88053f7b9d86a89e22pracadocassinoemmontecarlobvergely/0,175,2560,1528/1206,720,0.19/0/default.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.relogio{
+    background: transparent;
+    display: flex;
+    width: 90%;
+    padding: 3%;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.651);
+    color: white;
+}
+
+.relogio div {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 2%;
+    padding: 3%;
+    justify-content: center;
+    border-radius: 9px;
+    letter-spacing: 3px;
+    font-weight: 500;
+
+}
+
+.relogio span {
+    font-size: 4rem;
+}
+
+.relogio span.tempo {
+    font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+    .relogio {
+        flex-direction: column;
+    }
+}
+    
+
+
+
+
+    
+
+
+
+
+    

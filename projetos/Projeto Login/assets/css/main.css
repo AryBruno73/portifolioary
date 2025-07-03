@@ -1,0 +1,58 @@
+/*  ====================== GOOGLE FONTS ======================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*  ====================== VARIABLES CSS ======================== */
+:root{
+    /*  ====================== COLORS ======================== */
+    --white-color: #fff;
+    --black-color: #000;
+
+    /*  ====================== FONTS AND TYPOGRAPHY ======================== */
+    /* 16px = 1rem | 8px = 0.5rem  */
+    --h1-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .813rem; 
+    --body-font: "Poppins", sans-serif;
+    /*  ====================== FONT WEIGHT ======================== */
+    --font-medium: 500;
+
+    }
+
+/*  ====================== BASE ======================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+body, input, button {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body {
+    color: var(--white-color);
+}
+
+input, button {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+     -webkit-box-shadow: 0 0px 1000px #1a1a1a00 inset !important; 
+     -webkit-text-fill-color: #fff !important;
+     transition: background-color 5000s ease-in-out 0s;
+}
